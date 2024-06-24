@@ -19,7 +19,10 @@ const GameGrid = () => {
     apiClient
       .get<FetchGamesResponce>("/games")
       .then((res) => setGames(res.data.results))
-      .catch((err) => setError(err.message));
+      .catch((err) => {
+        setError(err.message);
+        console.log(error);
+      });
   });
   console.log(games);
   return (

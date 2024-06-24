@@ -1,4 +1,4 @@
-import { HStack, Image, Text } from "@chakra-ui/react";
+import { HStack, Image } from "@chakra-ui/react";
 import logo from "../assets/hand-drawn-gaming-logo-template_23-2150730869.avif";
 import ColorModeSwitch from "./ColorModeSwitch";
 
