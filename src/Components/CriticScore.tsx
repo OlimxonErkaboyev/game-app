@@ -6,7 +6,7 @@ interface Props {
 }
 
 const CriticScore = ({ game }: Props) => {
-  console.log(game);
+
   return (
     <Stack direction="row">
       <Badge
